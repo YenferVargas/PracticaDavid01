@@ -17,10 +17,13 @@
     <!-- Definición del menú -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" target="_blank" href="https://tecsup.instructure.com/courses/25788">
-        PostgreSQL-PHP | Por Walter Moncada
+            PostgreSQL-PHP | Por Walter Moncada
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#miNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="miNavbar">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="./listar.php">Listar (arreglo)</a>
                 </li>
