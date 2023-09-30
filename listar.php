@@ -13,9 +13,8 @@ $mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
 <div class="container mt-5">
 	<div class="row">
 		<div class="col-12">
-			<h1 class="mb-4">Listar con Arreglo</h1>
-			<a href="https://tecsup.instructure.com/courses/25788" target="_blank">Por Walter Moncada</a>
-			<br>
+			<h1 class="mb-4 text-center">Listar con Arreglo</h1>
+			<p class="text-center">Por Jordi de la Cruz</p>
 			<div class="table-responsive">
 				<table class="table table-bordered table-striped">
 					<thead class="thead-dark">
@@ -32,7 +31,7 @@ $mascotas = $sentencia->fetchAll(PDO::FETCH_OBJ);
 								<td><?php echo $mascota->id ?></td>
 								<td><?php echo $mascota->nombre ?></td>
 								<td><?php echo $mascota->edad ?></td>
-								<td>
+								<td class="text-center">
 									<a class="btn btn-warning" href="<?php echo "editar.php?id=" . $mascota->id ?>">Editar 📝</a>
 									<a class="btn btn-danger" href="<?php echo "eliminar.php?id=" . $mascota->id ?>">Eliminar 🗑️</a>
 								</td>

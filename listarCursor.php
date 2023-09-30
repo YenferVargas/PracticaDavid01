@@ -21,9 +21,9 @@ $sentencia->execute();
 	<div class="row">
 		<div class="col-12">
 			<h1 class="mb-4">Listar con Cursor</h1>
-			<a href="https://tecsup.instructure.com/courses/25788" target="_blank">Por Walter Moncada</a>
+			<a href="https://tecsup.instructure.com/courses/25788" target="_blank">Por Jordi de la Cruz</a>
 			<br>
-			<table class="table table-bordered">
+			<table class="table table-bordered table-striped">
 				<thead class="thead-dark">
 					<tr>
 						<th>ID</th>
