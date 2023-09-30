@@ -69,8 +69,4 @@
     </nav>
     <!-- Termina la definición del menú -->
     <main role="main" class="container">
-        <!-- Contenido de la página -->
-        <h1>Listado de Datos</h1>
-        <p>Bienvenido al listado de datos por Jordi de la Cruz.</p>
-        <!-- Aquí puedes agregar más contenido -->
-    </main>
+        
